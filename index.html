@@ -1,0 +1,1259 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <meta content="width=device-width, initial-scale=1.0" name="viewport" />
+        <title>EchipaVerde</title>
+        <meta content="" name="description" />
+        <meta content="" name="keywords" />
+
+        <!-- Favicons -->
+        <link href="assets/img/favicon.png" rel="icon" />
+        <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon" />
+
+        <!-- Fonts -->
+        <link href="https://fonts.googleapis.com" rel="preconnect" />
+        <link href="https://fonts.gstatic.com" rel="preconnect" crossorigin />
+        <link
+            href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+            rel="stylesheet"
+        />
+
+        <!-- Vendor CSS Files -->
+        <link
+            href="assets/vendor/bootstrap/css/bootstrap.min.css"
+            rel="stylesheet"
+        />
+        <link
+            href="assets/vendor/bootstrap-icons/bootstrap-icons.css"
+            rel="stylesheet"
+        />
+        <link href="assets/vendor/aos/aos.css" rel="stylesheet" />
+        <link
+            href="assets/vendor/glightbox/css/glightbox.min.css"
+            rel="stylesheet"
+        />
+        <link
+            href="assets/vendor/swiper/swiper-bundle.min.css"
+            rel="stylesheet"
+        />
+
+        <!-- Main CSS File -->
+        <link href="assets/css/main.css" rel="stylesheet" />
+    </head>
+
+    <body class="index-page">
+        <header id="header" class="header d-flex align-items-center fixed-top">
+            <div
+                class="container-fluid container-xl position-relative d-flex align-items-center justify-content-between"
+            >
+                <a href="index.html" class="logo d-flex align-items-center">
+                    <!-- Debifați linia de mai jos dacă doriți să folosiți și un logo imagine -->
+                    <!-- <img src="assets/img/logo.png" alt=""> -->
+                    <h1 class="sitename">EchipaVerde</h1>
+                </a>
+
+                <nav id="navmenu" class="navmenu">
+                    <ul>
+                        <li>
+                            <a href="index.html" class="active">Acasă<br /></a>
+                        </li>
+                        <li><a href="#about">Despre</a></li>
+                        <li><a href="#services">Servicii</a></li>
+                        <li><a href="#team">Echipă</a></li>
+                        <li><a href="#blog">Blog</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                    </ul>
+                    <i class="mobile-nav-toggle d-xl-none bi bi-list"></i>
+                </nav>
+            </div>
+        </header>
+
+        <main class="main">
+            <!-- Hero Section -->
+            <section id="hero" class="hero section dark-background">
+                <img src="assets/img/hero-bg.jpg" alt="" data-aos="fade-in" />
+
+                <div class="container">
+                    <div class="row">
+                        <div class="col-xl-4">
+                            <h1 data-aos="fade-up">
+                                Descoperiți Serviciile Noastre de Grădinărit
+                            </h1>
+                            <blockquote data-aos="fade-up" data-aos-delay="100">
+                                <p>
+                                    Îmbunătățiți aspectul și sănătatea grădinii
+                                    dumneavoastră cu ajutorul experților noștri
+                                    în grădinărit. Oferim o gamă completă de
+                                    servicii pentru a vă transforma spațiul
+                                    verde într-o oază de frumusețe și relaxare.
+                                    Fie că aveți nevoie de întreținere regulată,
+                                    amenajare peisagistică sau soluții
+                                    personalizate pentru plante, suntem aici
+                                    pentru a vă ajuta. Echipa noastră de
+                                    specialiști este dedicată să ofere cele mai
+                                    bune soluții pentru toate nevoile
+                                    dumneavoastră de grădinărit, asigurându-se
+                                    că grădina dumneavoastră arată impecabil pe
+                                    tot parcursul anului.
+                                </p>
+                            </blockquote>
+                            <div
+                                class="d-flex"
+                                data-aos="fade-up"
+                                data-aos-delay="200"
+                            >
+                                <a href="#contact" class="btn-get-started"
+                                    >Contactați-ne</a
+                                >
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <!-- /Hero Section -->
+
+            <!-- Why Us Section -->
+            <section id="about" class="why-us section">
+                <div class="container">
+                    <div class="row g-0">
+                        <div
+                            class="col-xl-5 img-bg"
+                            data-aos="fade-up"
+                            data-aos-delay="100"
+                        >
+                            <img src="assets/img/why-us-bg.jpg" alt="" />
+                        </div>
+
+                        <div
+                            class="col-xl-7 slides position-relative"
+                            data-aos="fade-up"
+                            data-aos-delay="200"
+                        >
+                            <div class="swiper init-swiper">
+                                <script
+                                    type="application/json"
+                                    class="swiper-config"
+                                >
+                                    {
+                                        "loop": true,
+                                        "speed": 600,
+                                        "autoplay": {
+                                            "delay": 5000
+                                        },
+                                        "slidesPerView": "auto",
+                                        "centeredSlides": true,
+                                        "pagination": {
+                                            "el": ".swiper-pagination",
+                                            "type": "bullets",
+                                            "clickable": true
+                                        },
+                                        "navigation": {
+                                            "nextEl": ".swiper-button-next",
+                                            "prevEl": ".swiper-button-prev"
+                                        }
+                                    }
+                                </script>
+                                <div class="swiper-wrapper">
+                                    <div class="swiper-slide">
+                                        <div class="item">
+                                            <h3 class="mb-3">
+                                                Experiență și Profesionalism
+                                            </h3>
+                                            <h4 class="mb-3">
+                                                Specialiști în Grădinărit
+                                            </h4>
+                                            <p>
+                                                Echipa noastră de grădinari este
+                                                formată din profesioniști cu ani
+                                                de experiență în domeniu. Ne
+                                                mândrim cu abilități avansate în
+                                                designul peisajului și
+                                                întreținerea grădinilor,
+                                                garantând rezultate excelente și
+                                                soluții eficiente pentru toate
+                                                tipurile de spații verzi.
+                                                Fiecare proiect este tratat cu
+                                                maximă seriozitate și expertiză,
+                                                asigurându-ne că nevoile
+                                                dumneavoastră sunt satisfăcute
+                                                la cele mai înalte standarde.
+                                            </p>
+                                        </div>
+                                    </div>
+                                    <!-- End slide item -->
+
+                                    <div class="swiper-slide">
+                                        <div class="item">
+                                            <h3 class="mb-3">
+                                                Servicii Personalizate
+                                            </h3>
+                                            <h4 class="mb-3">
+                                                Soluții Adaptate
+                                            </h4>
+                                            <p>
+                                                Înțelegem că fiecare grădină
+                                                este unică și că nevoile
+                                                fiecărui client pot varia
+                                                semnificativ. De aceea, oferim
+                                                servicii personalizate care sunt
+                                                adaptate exact cerințelor și
+                                                preferințelor dumneavoastră. Fie
+                                                că este vorba despre designul
+                                                peisajului, întreținerea
+                                                regulată sau soluții speciale
+                                                pentru plante, vom colabora
+                                                îndeaproape cu dumneavoastră
+                                                pentru a crea un plan care să se
+                                                potrivească perfect cu viziunea
+                                                și stilul dumneavoastră.
+                                            </p>
+                                        </div>
+                                    </div>
+                                    <!-- End slide item -->
+
+                                    <div class="swiper-slide">
+                                        <div class="item">
+                                            <h3 class="mb-3">
+                                                Întreținere Rigorosă
+                                            </h3>
+                                            <h4 class="mb-3">
+                                                Grădini Impecabile
+                                            </h4>
+                                            <p>
+                                                Ne angajăm să asigurăm o
+                                                întreținere riguroasă și
+                                                detaliată pentru grădina
+                                                dumneavoastră, astfel încât
+                                                aceasta să arate impecabil în
+                                                orice sezon. De la tăieri
+                                                regulate și fertilizare până la
+                                                curățarea și îngrijirea
+                                                plantelor, abordăm fiecare
+                                                aspect al întreținerii cu
+                                                atenție și dedicare. Obiectivul
+                                                nostru este să menținem grădina
+                                                dumneavoastră sănătoasă și
+                                                vibrantă pe termen lung, astfel
+                                                încât să puteți bucura de
+                                                frumusețea ei în fiecare zi.
+                                            </p>
+                                        </div>
+                                    </div>
+                                    <!-- End slide item -->
+
+                                    <div class="swiper-slide">
+                                        <div class="item">
+                                            <h3 class="mb-3">
+                                                Produse de Calitate
+                                            </h3>
+                                            <h4 class="mb-3">
+                                                Materiale și Plante de Top
+                                            </h4>
+                                            <p>
+                                                Folosim doar produse și plante
+                                                de cea mai bună calitate pentru
+                                                a asigura durabilitatea și
+                                                estetica grădinii dumneavoastră.
+                                                Colaborăm cu furnizori de renume
+                                                pentru a aduce materiale de
+                                                înaltă calitate și plante
+                                                sănătoase care contribuie la
+                                                crearea unui spațiu verde
+                                                deosebit. Fiecare element
+                                                utilizat în proiectul
+                                                dumneavoastră este selectat cu
+                                                grijă pentru a garanta un
+                                                rezultat final excelent și de
+                                                lungă durată.
+                                            </p>
+                                        </div>
+                                    </div>
+                                    <!-- End slide item -->
+                                </div>
+                                <div class="swiper-pagination"></div>
+                            </div>
+
+                            <div class="swiper-button-prev"></div>
+                            <div class="swiper-button-next"></div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <!-- /Why Us Section -->
+
+            <!-- Services Section -->
+            <section id="services" class="services section">
+                <!-- Section Title -->
+                <div class="container section-title" data-aos="fade-up">
+                    <h2>Îngrijire Profesională pentru Grădini</h2>
+                    <p>
+                        Oferim o gamă completă de servicii de grădinărit, menite
+                        să răspundă tuturor nevoilor dumneavoastră pentru un
+                        spațiu verde frumos și sănătos. Echipa noastră de
+                        specialiști este pregătită să ofere soluții
+                        personalizate, de la amenajarea peisajului și
+                        întreținerea grădinilor, până la consultanță și sfaturi
+                        de îngrijire. Fiecare serviciu este realizat cu atenție
+                        la detalii și cu produse de înaltă calitate, pentru a
+                        asigura cele mai bune rezultate. Viziunea noastră este
+                        să transformăm grădinile dumneavoastră în adevărate oaze
+                        de relaxare și frumusețe.
+                    </p>
+                </div>
+                <!-- End Section Title -->
+
+                <div class="container">
+                    <div class="row gy-4">
+                        <div
+                            class="col-lg-4 col-md-6 service-item d-flex"
+                            data-aos="fade-up"
+                            data-aos-delay="100"
+                        >
+                            <div class="icon flex-shrink-0">
+                                <i
+                                    class="bi bi-briefcase"
+                                    style="color: #f57813"
+                                ></i>
+                            </div>
+                            <div>
+                                <h4 class="title">Transformați-vă Grădina</h4>
+                                <p class="description">
+                                    Creăm designuri personalizate pentru grădini
+                                    care reflectă stilul și preferințele
+                                    dumneavoastră. De la planificare și
+                                    proiectare, până la implementare, echipa
+                                    noastră se ocupă de toate aspectele pentru a
+                                    crea un spațiu verde care să fie atât
+                                    estetic, cât și funcțional.
+                                </p>
+                            </div>
+                        </div>
+                        <!-- End Service Item -->
+
+                        <div
+                            class="col-lg-4 col-md-6 service-item d-flex"
+                            data-aos="fade-up"
+                            data-aos-delay="200"
+                        >
+                            <div class="icon flex-shrink-0">
+                                <i
+                                    class="bi bi-card-checklist"
+                                    style="color: #15a04a"
+                                ></i>
+                            </div>
+                            <div>
+                                <h4 class="title">
+                                    Grădini Îngrijite În Mod Constant
+                                </h4>
+                                <p class="description">
+                                    Asigurăm servicii de întreținere regulată,
+                                    inclusiv tăieri, fertilizare, udare și
+                                    curățare, pentru a menține grădina
+                                    dumneavoastră în cea mai bună formă.
+                                    Programăm vizite periodice pentru a ne
+                                    asigura că plantele și spațiile verzi sunt
+                                    sănătoase și bine întreținute.
+                                </p>
+                            </div>
+                        </div>
+                        <!-- End Service Item -->
+
+                        <div
+                            class="col-lg-4 col-md-6 service-item d-flex"
+                            data-aos="fade-up"
+                            data-aos-delay="300"
+                        >
+                            <div class="icon flex-shrink-0">
+                                <i
+                                    class="bi bi-bar-chart"
+                                    style="color: #d90769"
+                                ></i>
+                            </div>
+                            <div>
+                                <h4 class="title">
+                                    Sfaturi și Recomandări Expert
+                                </h4>
+                                <p class="description">
+                                    Oferim consultanță profesională pentru orice
+                                    aspect al grădinăritului. Vă putem ajuta cu
+                                    sfaturi privind selecția plantelor,
+                                    îngrijirea acestora și soluționarea
+                                    problemelor legate de grădină, astfel încât
+                                    să puteți face cele mai bune alegeri pentru
+                                    spațiul dumneavoastră verde.
+                                </p>
+                            </div>
+                        </div>
+                        <!-- End Service Item -->
+
+                        <div
+                            class="col-lg-4 col-md-6 service-item d-flex"
+                            data-aos="fade-up"
+                            data-aos-delay="400"
+                        >
+                            <div class="icon flex-shrink-0">
+                                <i
+                                    class="bi bi-binoculars"
+                                    style="color: #15bfbc"
+                                ></i>
+                            </div>
+                            <div>
+                                <h4 class="title">
+                                    Plantează și Reîmprospătează
+                                </h4>
+                                <p class="description">
+                                    Ne ocupăm de plantarea și transplantarea
+                                    plantelor cu grijă și precizie,
+                                    asigurându-ne că acestea se adaptează bine
+                                    la noul lor mediu. Folosim tehnici corecte
+                                    pentru a maximiza șansele de succes ale
+                                    plantelor și pentru a contribui la creșterea
+                                    lor sănătoasă.
+                                </p>
+                            </div>
+                        </div>
+                        <!-- End Service Item -->
+
+                        <div
+                            class="col-lg-4 col-md-6 service-item d-flex"
+                            data-aos="fade-up"
+                            data-aos-delay="500"
+                        >
+                            <div class="icon flex-shrink-0">
+                                <i
+                                    class="bi bi-brightness-high"
+                                    style="color: #f5cf13"
+                                ></i>
+                            </div>
+                            <div>
+                                <h4 class="title">
+                                    Sezonul Perfect pentru Fiecare Plantă
+                                </h4>
+                                <p class="description">
+                                    Oferim servicii specializate pentru fiecare
+                                    sezon, inclusiv pregătirea grădinii pentru
+                                    primăvară, protecția plantelor în timpul
+                                    iernii și adaptarea îngrijirii la condițiile
+                                    climatice schimbătoare. Ne asigurăm că
+                                    grădina dumneavoastră arată minunat în orice
+                                    perioadă a anului.
+                                </p>
+                            </div>
+                        </div>
+                        <!-- End Service Item -->
+
+                        <div
+                            class="col-lg-4 col-md-6 service-item d-flex"
+                            data-aos="fade-up"
+                            data-aos-delay="600"
+                        >
+                            <div class="icon flex-shrink-0">
+                                <i
+                                    class="bi bi-calendar4-week"
+                                    style="color: #1335f5"
+                                ></i>
+                            </div>
+                            <div>
+                                <h4 class="title">
+                                    Spațiu Verde Curat și Ordinit
+                                </h4>
+                                <p class="description">
+                                    Ne ocupăm de îndepărtarea resturilor
+                                    vegetale, frunzelor căzute și altor deșeuri
+                                    din grădină, lăsând spațiul curat și
+                                    ordonat. Acest serviciu contribuie nu doar
+                                    la estetica grădinii, dar și la sănătatea
+                                    plantelor și a solului.
+                                </p>
+                            </div>
+                        </div>
+                        <!-- End Service Item -->
+                    </div>
+                </div>
+            </section>
+            <!-- /Services Section -->
+
+            <!-- Call To Action Section -->
+            <section
+                id="call-to-action"
+                class="call-to-action section dark-background"
+            >
+                <img src="assets/img/cta-bg.jpg" alt="" />
+
+                <div class="container">
+                    <div
+                        class="row justify-content-center"
+                        data-aos="zoom-in"
+                        data-aos-delay="100"
+                    >
+                        <div class="col-xl-10">
+                            <div class="text-center">
+                                <h3>
+                                    Îmbunătățiți Aspectul Grădinii Dumneavoastră
+                                </h3>
+                                <p>
+                                    Un spațiu verde bine întreținut și estetic
+                                    poate aduce o schimbare semnificativă în
+                                    atmosfera casei dumneavoastră. Cu serviciile
+                                    noastre de grădinărit, vă oferim soluții
+                                    personalizate pentru a revitaliza și
+                                    îmbunătăți aspectul grădinii dumneavoastră.
+                                    De la amenajare peisagistică și întreținere
+                                    regulată, până la sfaturi de specialitate și
+                                    soluții pentru plante, suntem dedicați să
+                                    transformăm grădina dumneavoastră într-un
+                                    loc de relaxare și frumusețe. Lăsați-ne să
+                                    vă ajutăm să creați un spațiu verde care să
+                                    fie atât funcțional, cât și plăcut din punct
+                                    de vedere estetic, pentru a vă bucura de
+                                    fiecare moment petrecut în aer liber.
+                                </p>
+                                <a class="cta-btn" href="#contact"
+                                    >Apel la acțiune</a
+                                >
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <!-- /Call To Action Section -->
+
+            <!-- Team Section -->
+            <section id="team" class="team section">
+                <div class="container">
+                    <!-- Section Title -->
+                    <div class="container section-title" data-aos="fade-up">
+                        <h2>Profesioniști Dedicati Grădinăritului</h2>
+                        <p>
+                            Echipa noastră de specialiști în grădinărit este
+                            formată din experți pasionați și dedicați care aduc
+                            un plus de valoare fiecărui proiect. Fiecare membru
+                            al echipei noastre aduce o combinație unică de
+                            experiență, abilități și cunoștințe în domeniul
+                            grădinăritului. Ne străduim să oferim cele mai bune
+                            soluții și să realizăm proiecte care depășesc
+                            așteptările clienților noștri. Fiecare dintre noi
+                            este angajat să contribuie la crearea și menținerea
+                            unor spații verzi frumoase și sănătoase, și ne
+                            mândrim cu profesionalismul și dedicarea noastră în
+                            fiecare aspect al muncii noastre.
+                        </p>
+                    </div>
+                    <!-- End Section Title -->
+                    <div class="row gy-4">
+                        <div
+                            class="col-lg-3 col-md-6 d-flex align-items-stretch"
+                            data-aos="fade-up"
+                            data-aos-delay="100"
+                        >
+                            <div class="team-member">
+                                <div class="member-img">
+                                    <img
+                                        src="assets/img/team/team-2.jpg"
+                                        class="img-fluid"
+                                        alt=""
+                                    />
+                                </div>
+                                <div class="member-info">
+                                    <h4>Andrei Ionescu</h4>
+                                    <span>Specialist în Peisagistică</span>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- End Team Member -->
+
+                        <div
+                            class="col-lg-3 col-md-6 d-flex align-items-stretch"
+                            data-aos="fade-up"
+                            data-aos-delay="200"
+                        >
+                            <div class="team-member">
+                                <div class="member-img">
+                                    <img
+                                        src="assets/img/team/team-1.jpg"
+                                        class="img-fluid"
+                                        alt=""
+                                    />
+                                </div>
+                                <div class="member-info">
+                                    <h4>Maria Popescu</h4>
+                                    <span> Expertă în Întreținere Grădini</span>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- End Team Member -->
+
+                        <div
+                            class="col-lg-3 col-md-6 d-flex align-items-stretch"
+                            data-aos="fade-up"
+                            data-aos-delay="300"
+                        >
+                            <div class="team-member">
+                                <div class="member-img">
+                                    <img
+                                        src="assets/img/team/team-4.jpg"
+                                        class="img-fluid"
+                                        alt=""
+                                    />
+                                </div>
+                                <div class="member-info">
+                                    <h4>Mihai Vancea</h4>
+                                    <span>Consultant în Grădinărit</span>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- End Team Member -->
+
+                        <div
+                            class="col-lg-3 col-md-6 d-flex align-items-stretch"
+                            data-aos="fade-up"
+                            data-aos-delay="400"
+                        >
+                            <div class="team-member">
+                                <div class="member-img">
+                                    <img
+                                        src="assets/img/team/team-3.jpg"
+                                        class="img-fluid"
+                                        alt=""
+                                    />
+                                </div>
+                                <div class="member-info">
+                                    <h4>Elena Tudor</h4>
+                                    <span>
+                                        Tehnician în Plantare și
+                                        Transplantare</span
+                                    >
+                                </div>
+                            </div>
+                        </div>
+                        <!-- End Team Member -->
+                    </div>
+                </div>
+            </section>
+            <!-- /Team Section -->
+
+            <!-- Features Section -->
+            <section id="features" class="features section">
+                <div class="container">
+                    <div class="row">
+                        <div
+                            class="col-lg-7"
+                            data-aos="fade-up"
+                            data-aos-delay="100"
+                        >
+                            <h3 class="mb-0">De ce să alegeți</h3>
+                            <h3>serviciile noastre de grădinărit?</h3>
+
+                            <p>
+                                Optând pentru serviciile noastre de grădinărit,
+                                beneficiați de o serie de avantaje care fac
+                                diferența în întreținerea și îmbunătățirea
+                                grădinii dumneavoastră. Suntem dedicați să
+                                oferim soluții de înaltă calitate, care să
+                                răspundă nevoilor dumneavoastră și să depășească
+                                așteptările. Fiecare aspect al serviciilor
+                                noastre este conceput pentru a vă aduce un plus
+                                de valoare, oferind profesionalism, eficiență și
+                                rezultate excelente. Descoperiți avantajele pe
+                                care le aducem în grădina dumneavoastră și
+                                bucurați-vă de un spațiu verde deosebit.
+                            </p>
+
+                            <div class="row gy-4">
+                                <div class="col-md-6">
+                                    <div class="icon-list d-flex">
+                                        <i
+                                            class="bi bi-eye"
+                                            style="color: #ff8b2c"
+                                        ></i>
+                                        <span>Servicii de înaltă calitate</span>
+                                    </div>
+                                </div>
+                                <!-- End Icon List Item-->
+
+                                <div class="col-md-6">
+                                    <div class="icon-list d-flex">
+                                        <i
+                                            class="bi bi-infinity"
+                                            style="color: #5578ff"
+                                        ></i>
+                                        <span
+                                            >Solutii adaptate nevoilor
+                                            dumneavoastră</span
+                                        >
+                                    </div>
+                                </div>
+                                <!-- End Icon List Item-->
+
+                                <div class="col-md-6">
+                                    <div class="icon-list d-flex">
+                                        <i
+                                            class="bi bi-mortarboard"
+                                            style="color: #e80368"
+                                        ></i>
+                                        <span
+                                            >Grădini sănătoase și frumoase</span
+                                        >
+                                    </div>
+                                </div>
+                                <!-- End Icon List Item-->
+
+                                <div class="col-md-6">
+                                    <div class="icon-list d-flex">
+                                        <i
+                                            class="bi bi-star"
+                                            style="color: #ffa76e"
+                                        ></i>
+                                        <span>Materiale și plante de top</span>
+                                    </div>
+                                </div>
+                                <!-- End Icon List Item-->
+
+                                <div class="col-md-6">
+                                    <div class="icon-list d-flex">
+                                        <i
+                                            class="bi bi-x-diamond"
+                                            style="color: #11dbcf"
+                                        ></i>
+                                        <span
+                                            >Sfaturi și recomandări utile</span
+                                        >
+                                    </div>
+                                </div>
+                                <!-- End Icon List Item-->
+
+                                <div class="col-md-6">
+                                    <div class="icon-list d-flex">
+                                        <i
+                                            class="bi bi-camera-video"
+                                            style="color: #4233ff"
+                                        ></i>
+                                        <span
+                                            >Transformări rapide și eficiente
+                                        </span>
+                                    </div>
+                                </div>
+                                <!-- End Icon List Item-->
+
+                                <div class="col-md-6">
+                                    <div class="icon-list d-flex">
+                                        <i
+                                            class="bi bi-brightness-high"
+                                            style="color: #29cc61"
+                                        ></i>
+                                        <span>Servicii rapide și precise</span>
+                                    </div>
+                                </div>
+                                <!-- End Icon List Item-->
+
+                                <div class="col-md-6">
+                                    <div class="icon-list d-flex">
+                                        <i
+                                            class="bi bi-activity"
+                                            style="color: #ff5828"
+                                        ></i>
+                                        <span
+                                            >Comunicare deschisă și suport
+                                            constant</span
+                                        >
+                                    </div>
+                                </div>
+                                <!-- End Icon List Item-->
+                            </div>
+                        </div>
+                        <div
+                            class="col-lg-5 position-relative"
+                            data-aos="zoom-out"
+                            data-aos-delay="200"
+                        >
+                            <div class="phone-wrap">
+                                <img
+                                    src="assets/img/iphone.png"
+                                    alt="Image"
+                                    class="img-fluid"
+                                />
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="details">
+                    <div class="container">
+                        <div class="row">
+                            <div
+                                class="col-md-6"
+                                data-aos="fade-up"
+                                data-aos-delay="300"
+                            >
+                                <h4>
+                                    Un Proces Meticulos pentru Grădini Perfecte
+                                </h4>
+                                <p>
+                                    La baza fiecărei grădini de succes se află o
+                                    abordare atentă și bine planificată. În
+                                    cadrul serviciilor noastre de grădinărit, ne
+                                    angajăm să aplicăm o metodologie meticuloasă
+                                    pentru a asigura rezultate excelente și
+                                    satisfacția clienților. Procesul nostru
+                                    începe cu o evaluare detaliată a spațiului
+                                    verde, în care analizăm condițiile
+                                    existente, tipul de sol, și nevoile
+                                    specifice ale plantelor. Această evaluare ne
+                                    permite să dezvoltăm un plan personalizat
+                                    care să răspundă nevoilor individuale ale
+                                    fiecărei grădini. După stabilirea planului,
+                                    ne concentrăm pe implementarea acestuia cu
+                                    cea mai mare atenție la detalii. Utilizăm
+                                    tehnici de grădinărit dovedite și produse de
+                                    înaltă calitate pentru a asigura o creștere
+                                    sănătoasă și o estetică deosebită. În timpul
+                                    procesului de implementare, ne asigurăm că
+                                    fiecare pas este realizat conform planului,
+                                    monitorizăm progresul și facem ajustări dacă
+                                    este necesar pentru a optimiza rezultatele.
+                                    Întreținerea continuă este un aspect
+                                    esențial al abordării noastre. Programăm
+                                    vizite regulate pentru a menține grădina
+                                    într-o stare excelentă, oferind servicii de
+                                    îngrijire care includ tăieri, fertilizare,
+                                    și curățare. În plus, oferim consultanță
+                                    constantă pentru a răspunde la orice
+                                    întrebări și a ajusta îngrijirea în funcție
+                                    de schimbările sezoniere și nevoile
+                                    emergente ale grădinii.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <!-- /Features Section -->
+
+            <!-- Recent Posts Section -->
+            <section id="blog" class="recent-posts section">
+                <!-- Section Title -->
+                <div class="container section-title" data-aos="fade-up">
+                    <h2>Inspirație și Sfaturi pentru Îngrijirea Grădinii</h2>
+                    <p>
+                        Descoperiți cele mai recente articole de pe blogul
+                        nostru, unde împărtășim sfaturi utile, idei inovatoare
+                        și informații relevante despre grădinărit. Fie că
+                        sunteți un grădinar experimentat sau doar la început,
+                        blogul nostru oferă resurse valoroase pentru a vă ajuta
+                        să îmbunătățiți și să întrețineți grădina dumneavoastră.
+                        De la tehnici de îngrijire a plantelor până la idei de
+                        amenajare peisagistică, fiecare articol este conceput
+                        pentru a vă oferi cunoștințe practice și inspirație
+                        pentru a crea un spațiu verde frumos și sănătos.
+                    </p>
+                </div>
+                <!-- End Section Title -->
+
+                <div class="container">
+                    <div class="row gy-5">
+                        <div
+                            class="col-xl-3 col-md-6"
+                            data-aos="fade-up"
+                            data-aos-delay="200"
+                        >
+                            <div class="post-box">
+                                <div class="post-img">
+                                    <img
+                                        src="assets/img/blog/blog-1.jpg"
+                                        class="img-fluid"
+                                        alt=""
+                                    />
+                                </div>
+                                <div class="meta">
+                                    <span class="post-date"
+                                        >marți, 12 decembrie</span
+                                    >
+                                </div>
+                                <h3 class="post-title">
+                                    Descoperiți plantele ideale pentru sezonul
+                                    cald
+                                </h3>
+                                <p>
+                                    Află care sunt cele mai bune plante pentru a
+                                    adăuga culoare și vitalitate grădinii tale
+                                    în timpul verii. Acest articol explorează
+                                    plantele care prosperă în căldura verii și
+                                    oferă sfaturi despre cum să le îngrijiți
+                                    pentru o grădină plină de viață.
+                                </p>
+                            </div>
+                        </div>
+
+                        <div
+                            class="col-xl-3 col-md-6"
+                            data-aos="fade-up"
+                            data-aos-delay="400"
+                        >
+                            <div class="post-box">
+                                <div class="post-img">
+                                    <img
+                                        src="assets/img/blog/blog-2.jpg"
+                                        class="img-fluid"
+                                        alt=""
+                                    />
+                                </div>
+                                <div class="meta">
+                                    <span class="post-date"
+                                        >vineri, 05 septembrie</span
+                                    >
+                                </div>
+                                <h3 class="post-title">
+                                    Sfaturi pentru menținerea plantelor de
+                                    interior sănătoase
+                                </h3>
+                                <p>
+                                    Învață cum să oferi îngrijirea adecvată
+                                    plantelor de interior pentru a le menține
+                                    sănătoase și viguros. Articolul acoperă
+                                    aspecte precum lumina, udarea, și
+                                    fertilizarea plantelor, oferind sfaturi
+                                    pentru a evita cele mai comune greșeli.
+                                </p>
+                            </div>
+                        </div>
+
+                        <div
+                            class="col-xl-3 col-md-6"
+                            data-aos="fade-up"
+                            data-aos-delay="600"
+                        >
+                            <div class="post-box">
+                                <div class="post-img">
+                                    <img
+                                        src="assets/img/blog/blog-3.jpg"
+                                        class="img-fluid"
+                                        alt=""
+                                    />
+                                </div>
+                                <div class="meta">
+                                    <span class="post-date"
+                                        >marți, 27 iulie</span
+                                    >
+                                </div>
+                                <h3 class="post-title">
+                                    Transformați-vă grădina cu idei inovatoare
+                                </h3>
+                                <p>
+                                    Explorează idei creative pentru amenajarea
+                                    peisajului care pot transforma grădina ta
+                                    într-un spațiu deosebit. De la utilizarea
+                                    pietrelor și a elementelor de apă, până la
+                                    crearea unor zone de relaxare, acest articol
+                                    oferă inspirație pentru orice proiect de
+                                    amenajare.
+                                </p>
+                            </div>
+                        </div>
+
+                        <div
+                            class="col-xl-3 col-md-6"
+                            data-aos="fade-up"
+                            data-aos-delay="600"
+                        >
+                            <div class="post-box">
+                                <div class="post-img">
+                                    <img
+                                        src="assets/img/blog/blog-4.jpg"
+                                        class="img-fluid"
+                                        alt=""
+                                    />
+                                </div>
+                                <div class="meta">
+                                    <span class="post-date"
+                                        >marți, 16 septembrie</span
+                                    >
+                                </div>
+                                <h3 class="post-title">
+                                    Ghid pentru îngrijirea grădinii în timpul
+                                    iernii
+                                </h3>
+                                <p>
+                                    Află cum să pregătești și să întreții
+                                    grădina în sezonul rece pentru a asigura o
+                                    revenire sănătoasă primăvara. Articolul
+                                    oferă sfaturi despre protejarea plantelor,
+                                    întreținerea solului și alte aspecte
+                                    esențiale pentru iarna în grădină.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <!-- /Recent Posts Section -->
+
+            <!-- Contact Section -->
+            <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d846847.5765081198!2d25.307599221980666!3d46.32904064092272!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x29eba531a156aca1%3A0x3f1d03babee7b0c1!2sUrban%20Zone%20Amenajari%20Gradini!5e0!3m2!1suk!2sua!4v1723021154058!5m2!1suk!2sua"
+                width="100%"
+                height="450"
+                style="border: 0"
+                allowfullscreen=""
+                loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade"
+            ></iframe>
+
+            <section id="contact" class="contact section">
+                <div
+                    class="container position-relative"
+                    data-aos="fade-up"
+                    data-aos-delay="100"
+                >
+                    <div class="row gy-4">
+                        <div class="col-lg-5">
+                            <div
+                                class="info-item d-flex"
+                                data-aos="fade-up"
+                                data-aos-delay="200"
+                            >
+                                <i class="bi bi-geo-alt flex-shrink-0"></i>
+                                <div>
+                                    <h3>Adresă</h3>
+                                    <p>
+                                        Strada Zizinului 980, Tărlungeni 507220,
+                                        Romania
+                                    </p>
+                                </div>
+                            </div>
+                            <!-- End Info Item -->
+
+                            <div
+                                class="info-item d-flex"
+                                data-aos="fade-up"
+                                data-aos-delay="300"
+                            >
+                                <i class="bi bi-telephone flex-shrink-0"></i>
+                                <div>
+                                    <h3>Sună-ne</h3>
+                                    <p>+40790488477</p>
+                                </div>
+                            </div>
+                            <!-- End Info Item -->
+
+                            <div
+                                class="info-item d-flex"
+                                data-aos="fade-up"
+                                data-aos-delay="400"
+                            >
+                                <i class="bi bi-envelope flex-shrink-0"></i>
+                                <div>
+                                    <h3>Trimite-ne un email</h3>
+                                    <p>echipa_verde@gmail.com</p>
+                                </div>
+                            </div>
+                            <!-- End Info Item -->
+                        </div>
+
+                        <div class="col-lg-7">
+                            <form
+                                action="forms/contact.php"
+                                method="post"
+                                class="php-email-form"
+                                data-aos="fade-up"
+                                data-aos-delay="500"
+                            >
+                                <div class="row gy-4">
+                                    <div class="col-md-6">
+                                        <input
+                                            type="text"
+                                            name="name"
+                                            class="form-control"
+                                            placeholder="Numele tău"
+                                        />
+                                    </div>
+
+                                    <div class="col-md-6">
+                                        <input
+                                            type="email"
+                                            class="form-control"
+                                            name="email"
+                                            placeholder="Emailul tău"
+                                            id="email"
+                                        />
+                                        <div
+                                            id="result"
+                                            style="color: red"
+                                        ></div>
+                                    </div>
+
+                                    <div class="col-md-12">
+                                        <input
+                                            type="text"
+                                            class="form-control"
+                                            name="subject"
+                                            placeholder="Subiect"
+                                        />
+                                    </div>
+
+                                    <div class="col-md-12">
+                                        <textarea
+                                            class="form-control"
+                                            name="message"
+                                            rows="6"
+                                            placeholder="Mesaj"
+                                        ></textarea>
+                                    </div>
+
+                                    <div class="col-md-12 text-center">
+                                        <button
+                                            type="submit"
+                                            id="submit"
+                                            onclick="sendForm()"
+                                        >
+                                            Trimite mesajul
+                                        </button>
+                                    </div>
+                                </div>
+                            </form>
+                        </div>
+                        <!-- End Contact Form -->
+                    </div>
+                </div>
+            </section>
+
+            <!-- /Contact Section -->
+        </main>
+
+        <footer id="footer" class="footer light-background">
+            <div class="footer-top">
+                <div class="container">
+                    <div class="row gy-4">
+                        <div class="col-lg-5 col-md-12 footer-about">
+                            <a
+                                href="index.html"
+                                class="logo d-flex align-items-center"
+                            >
+                                <span class="sitename">EchipaVerde</span>
+                            </a>
+                            <p>
+                                În secțiunea de footer, găsiți informațiile
+                                esențiale de contact pentru a ajunge la noi
+                                rapid și eficient. Indiferent dacă aveți
+                                întrebări, sugestii sau doriți să solicitați
+                                serviciile noastre de grădinărit, suntem
+                                întotdeauna la dispoziția dumneavoastră. Aici
+                                puteți găsi adresa noastră fizică, numărul de
+                                telefon și adresa de email, astfel încât să ne
+                                puteți contacta ușor.
+                            </p>
+                        </div>
+
+                        <div class="col-lg-2 col-6 footer-links">
+                            <h4>Linkuri Utile</h4>
+                            <ul>
+                                <li><a href="index.html">Acasă</a></li>
+                                <li><a href="#about">Despre noi</a></li>
+                                <li><a href="#service">Servicii</a></li>
+                                <li>
+                                    <a href="terms-of-use.html"
+                                        >Termeni de utilizare</a
+                                    >
+                                </li>
+                                <li>
+                                    <a href="privacy-policy.html"
+                                        >Politica de confidențialitate</a
+                                    >
+                                </li>
+                            </ul>
+                        </div>
+
+                        <div class="col-lg-2 col-6 footer-links">
+                            <h4>Serviciile Noastre</h4>
+                            <ul>
+                                <li>
+                                    <a href="index.html#service"
+                                        >Sezonul Perfect pentru Fiecare
+                                        Plantă</a
+                                    >
+                                </li>
+                                <li>
+                                    <a href="index.html#service"
+                                        >Transformați-vă Grădina</a
+                                    >
+                                </li>
+                                <li>
+                                    <a href="index.html#service"
+                                        >Sfaturi și Recomandări Expert</a
+                                    >
+                                </li>
+                            </ul>
+                        </div>
+
+                        <div
+                            class="col-lg-3 col-md-12 footer-contact text-center text-md-start"
+                        >
+                            <h4>Contactați-ne</h4>
+                            <p>Strada Zizinului 980</p>
+                            <p>Tărlungeni 507220</p>
+                            <p>România</p>
+                            <p class="mt-4">
+                                <strong>Telefon:</strong>
+                                <span>+40790488477</span>
+                            </p>
+                            <p>
+                                <strong>Email:</strong>
+                                <span>echipa_verde@gmail.com</span>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </footer>
+
+        <!-- Scroll Top -->
+        <a
+            href="#"
+            id="scroll-top"
+            class="scroll-top d-flex align-items-center justify-content-center"
+            ><i class="bi bi-arrow-up-short"></i
+        ></a>
+
+        <!-- Preloader -->
+        <div id="preloader"></div>
+
+        <!-- Cookie banner -->
+        <div class="cookie-wrapper show">
+            <div>
+                <i class="bx bx-cookie"></i>
+                <h2 style="text-align: center">
+                    Consimțământ pentru Cookie-uri
+                </h2>
+            </div>
+
+            <div class="data">
+                <p>
+                    Acest site utilizează cookie-uri pentru a vă oferi o
+                    experiență de navigare superioară și mai relevantă.
+                    <a href="#">Aflați mai multe...</a>
+                </p>
+            </div>
+
+            <div class="buttons">
+                <button class="cookie-button" id="acceptBtn">Accept</button>
+                <button class="cookie-button" id="declineBtn">Refuz</button>
+            </div>
+        </div>
+
+        <!-- End Cookie banner -->
+
+        <!-- Vendor JS Files -->
+        <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+        <script src="assets/vendor/php-email-form/validate.js"></script>
+        <script src="assets/vendor/aos/aos.js"></script>
+        <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
+        <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+        <script src="assets/vendor/imagesloaded/imagesloaded.pkgd.min.js"></script>
+        <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+
+        <!-- Main JS File -->
+        <script src="assets/js/main.js"></script>
+        <script src="assets/js/contact-form.js"></script>
+        <script src="assets/js/cookiebanner.js"></script>
+    </body>
+</html>
